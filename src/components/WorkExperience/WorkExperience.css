@@ -1,0 +1,31 @@
+.work-experience-container {
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+.timeline-section {
+  margin-top: 10px;
+}
+
+.tech-name-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tech-name-container p {
+  background-color: black;
+  padding: 8px 25px;
+  border-radius: 90px;
+}
+
+.tech-name-container p:hover {
+  background-color: gold;
+  cursor: pointer;
+  color: black;
+  transition-duration: 0.4s;
+}
+
+.date-my-project {
+  color: black;
+  font-weight: 700;
+}

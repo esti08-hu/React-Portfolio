@@ -1,0 +1,70 @@
+.project-container {
+  margin-left: 240px;
+}
+.project-list {
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    -5px 13px 50px 7px rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 10px 13px -7px #000000, -5px 13px 50px 7px rgba(0, 0, 0, 0.04);
+  height: auto;
+  border-radius: 5px;
+  padding: 20px 10px;
+}
+
+.project-list-opened {
+  border-left: 5px solid blueviolet;
+  transition-duration: 0.5s;
+}
+
+.description {
+    margin: 15px;
+} 
+
+.project-list:hover {
+  border-left: 5px solid blueviolet;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.title-and-collapse-option {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.tech-used-in-project {
+  background-color: tomato;
+  margin-top: 20px;
+  margin: 5px;
+  border-radius: 90px;
+}
+
+.tech-used-in-project p:hover {
+  background-color: rgb(245, 128, 107) !important;
+  transition-duration: 0.5s;
+}
+
+.tech-used-in-project p {
+  color: white;
+  padding: 8px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.live-demo-button {
+  background-color: brown;
+  color: white;
+  width: max-content;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 90px;
+}
+.live-demo-button:hover {
+  background-color: blueviolet;
+  transition-duration: 0.5s;
+}
+
+.live-demo-button a {
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  padding: 10px;
+}

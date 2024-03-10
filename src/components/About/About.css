@@ -1,0 +1,79 @@
+/* .about-section {
+  -webkit-box-shadow: 4px 6px 12px 3px #7b7b7b; */
+  /* box-shadow: 7px 2px 12px 0.1px #ababab; */
+  /* margin-left: 300px;
+  margin-top: 30px;
+  height: auto;
+  width: 1300px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  /* margin: 0 auto;
+  width: max-content;
+
+} */
+/* .about-image-container {
+  width: max-content;
+  height: max-content;
+  border-radius: 100%;
+}
+
+.about-image img {
+  width: 300px;
+  border-radius: 100%;
+  border: 2px solid yellow;
+}
+
+.about-details{
+    margin: 50px 10px;
+}
+
+.about-title h5{
+    text-align: center;
+}
+.line{
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 1px auto;
+    background-color: #7b7b7b;
+} */
+
+body {
+  font-family: sans-serif; /* Choose a preferred font family */
+  margin: 0;
+  padding: 0;
+}
+
+h5 {
+  margin: 0; /* Remove default margins */
+}
+
+p {
+  line-height: 1.5; /* Adjust line spacing for better readability */
+}
+
+.container.about-section {
+  margin: 0 auto; /* Center the section horizontally */
+  max-width: auto; /* Set a maximum width for larger screens */
+}
+
+.about-image-container {
+  display: flex; /* Allow vertical or horizontal centering */
+  justify-content: center; /* Horizontally center the image */
+  align-items: center; /* Vertically center the image */
+}
+
+.about-me-text{
+  margin-left: 20px;
+}
+
+@media (min-width: 1000px) {
+  .about-image-container {
+    /* Adjust image size or position for tablets */
+  }
+}
