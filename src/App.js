@@ -9,11 +9,13 @@ import Testimonial from "./components/Testimaonal/Testimonial";
 import Contact from "./components/Contact/Contact";
 import ScrollToTop from "react-scroll-to-top";
 import "./App.css"
+import NavbarMobileView from "./components/Sidebar/NavbarMobileView";
 
 
 const App = () => {
   return (
     <>
+      <NavbarMobileView/>
       <Sidebar />
       <About />
       <TechStack />
