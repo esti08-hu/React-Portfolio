@@ -32,48 +32,6 @@ function Testimonial() {
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       img: ProfileImg
 
-    },
-    {
-      name: "Jhon Tod",
-      position: "CEO",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      img: ProfileImg
-
-    },
-    {
-      name: "Jhon Tod",
-      position: "CEO",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      img: ProfileImg
-
-    },
-    {
-      name: "Jhon Tod",
-      position: "CEO",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      img: ProfileImg
-
-    },
-    {
-      name: "Jhon Tod",
-      position: "CEO",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      img: ProfileImg
-
-    },
-    {
-      name: "Jhon Tod",
-      position: "CEO",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      img: ProfileImg
-
-    },
-    {
-      name: "Jhon Tod",
-      position: "CEO",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      img: ProfileImg
-
     }
   ]
 
@@ -82,8 +40,8 @@ function Testimonial() {
     infinite: true,
     speed: 1000,
     autoplay: true,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToShow: 2,
+    slidesToScroll: 2,
     initialSlide: 0,
     row: 1,
     responsive: [
@@ -99,8 +57,8 @@ function Testimonial() {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           initialSlide: 2
         }
       },

@@ -33,7 +33,7 @@ import PorfilePic from '../Images/profile.png';
 
 const About = () => {
   return (
-    <div className="container about-section py-12 px-4 grid grid-cols-1 sm:grid-cols-2  grid-template-columns-1fr 3fr gap-4" id="about">
+    <div className="container about-section py-12 px-4 grid grid-template-columns-1fr 3fr gap-4 grid-cols-1 sm:grid-cols-2" id="about">
       <div className="about-image-container">
         {/** Ensure consistent image size across viewports */}
         <div className="about-image md:w-48 md:h-48 overflow-hidden">

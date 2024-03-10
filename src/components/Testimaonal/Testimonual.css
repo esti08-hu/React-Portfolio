@@ -48,3 +48,9 @@
     padding: 3px;
     border-radius: 100%;
 }
+
+@media (max-width: 1000px) {
+  .testimonial-section{
+    margin-left: 40px;
+  }
+}

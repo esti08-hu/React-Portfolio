@@ -59,3 +59,10 @@
     transition: all ease 1s;
     color: black;
   }
+
+  @media (max-width: 1000px) {
+    .home-content{
+      margin-left: 10px;
+    }
+  }
+  

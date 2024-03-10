@@ -66,6 +66,7 @@ p {
   display: flex; /* Allow vertical or horizontal centering */
   justify-content: center; /* Horizontally center the image */
   align-items: center; /* Vertically center the image */
+  background-size: cover;
 }
 
 .about-me-text{
@@ -74,6 +75,8 @@ p {
 
 @media (min-width: 1000px) {
   .about-image-container {
-    /* Adjust image size or position for tablets */
+   
+
   }
 }
+

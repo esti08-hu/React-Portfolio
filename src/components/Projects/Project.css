@@ -68,3 +68,9 @@
   text-decoration: none;
   padding: 10px;
 }
+
+@media (max-width: 1000px) {
+  .project-container{
+    margin-left: 0px;
+  }
+}

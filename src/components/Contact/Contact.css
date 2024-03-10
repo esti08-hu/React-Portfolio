@@ -43,3 +43,10 @@
   background-color: #0381c0;
   transition-duration: 0.8s;
 }
+
+@media (max-width: 1000px) {
+  .contact-section{
+    margin-left: 50px;
+    margin-top: 80px;
+  }
+}

@@ -1,13 +1,13 @@
 .techstack-section {
   height: auto;
-  width: max-content;
+  /* width: max-content; */
   margin: 0 auto;
 }
 
-.tech-stack-container{
+/* .tech-stack-container{
   width: max-content;
   
-}
+} */
 
 .section-title {
   text-align: center;
