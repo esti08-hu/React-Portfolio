@@ -1,14 +1,13 @@
 .techstack-section {
   height: auto;
-  /* width: max-content; */
+  width: 80%;
   margin: 0 auto;
+  margin-left: 11rem;
 }
 
-/* .tech-stack-container{
-  width: max-content;
-  
-} */
-
+.tech-stack-container{
+  width: 90%;
+}
 .section-title {
   text-align: center;
 }
@@ -65,4 +64,11 @@
   margin: 35px auto 35px auto;
   border-radius: 10px;
   cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .techstack-section{
+    margin-left: 6rem;
+  }
+  
 }

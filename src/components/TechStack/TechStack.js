@@ -77,7 +77,7 @@ const TechStack = () => {
     //     setShowMoreTechStack((prev) => prev - 3)
     // }
     return (
-        <div className='container techstack-section mt-10' id='tech-stack'>
+        <div className='techstack-section mt-10' id='tech-stack'>
 
             <div class="flex flex-col items-center justify-center mb-4 text-2xl font-bold">
                 <h5 class="text-gray-900">Tech Stack</h5>

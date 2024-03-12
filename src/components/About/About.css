@@ -59,7 +59,8 @@ p {
 
 .container.about-section {
   margin: 0 auto; /* Center the section horizontally */
-  max-width: auto; /* Set a maximum width for larger screens */
+  max-width: 84%; /* Set a maximum width for larger screens */
+  margin-left: 9.5rem;
 }
 
 .about-image-container {
@@ -73,10 +74,10 @@ p {
   margin-left: 20px;
 }
 
-@media (min-width: 1000px) {
-  .about-image-container {
-   
-
+@media (max-width: 1000px) {
+  .container.about-section {
+    margin-left: 3rem;
+  
   }
 }
 

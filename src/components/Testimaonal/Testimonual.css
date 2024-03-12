@@ -1,8 +1,11 @@
 .testimonial-section {
-  margin-left: 300px;
+  margin-left: 14rem;
   margin-top: 50px;
   height: 40vh;
-  width: 80vw;
+  max-width: 73%;
+}
+.testimonial-section-main{
+  /* width: 50px; */
 }
 .slider-content {
   padding: 10px;
@@ -51,6 +54,6 @@
 
 @media (max-width: 1000px) {
   .testimonial-section{
-    margin-left: 40px;
+    margin-left: 5.5rem;
   }
 }
