@@ -2,11 +2,14 @@ import React from 'react'
 import "./Home.css"
 import Typewriter from 'typewriter-effect';
 import MyCv from "./React_Cheatsheet_Zero_To_Mastery_V1.02.pdf"
+import Fade from 'react-reveal/Fade';
 
 const Home = () => {
   return (
     <div className='w-full overflow-hidden home' id='home'>
       <div className='container home-content'>
+
+      <Fade right>
         <h1>Hi I'm a </h1>
         <h2>
           <Typewriter
@@ -23,6 +26,9 @@ const Home = () => {
             }}
           />
         </h2>
+        </Fade>
+
+            <Fade bottom>
 
         <div className='btn-for-action'>
           <div className='hire-me-btn'>
@@ -34,6 +40,7 @@ const Home = () => {
             </a>
           </div>
         </div>
+            </Fade>
       </div>
     </div>
   )

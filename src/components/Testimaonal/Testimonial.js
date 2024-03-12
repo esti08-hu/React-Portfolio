@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ProfileImg from "../Images/profile.png"
+import { Zoom } from 'react-reveal';
 
 function Testimonial() {
   const data = [
@@ -83,6 +84,8 @@ function Testimonial() {
         <Slider {...settings}>
           {
             data.map((item, index) => (
+              <Zoom>
+                
               <div className='testimonial-section-main '>
                 <div className="slider-content" key={index}>
 
@@ -92,6 +95,7 @@ function Testimonial() {
                   <h4>{item.position}</h4>
                 </div>
               </div>
+              </Zoom>
             ))
           }
         </Slider>

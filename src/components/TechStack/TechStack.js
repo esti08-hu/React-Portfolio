@@ -1,6 +1,8 @@
 import React from 'react'
 import "./TechStack.css"
 import "../About/About.css"
+import Fade from 'react-reveal/Fade'
+import Zoom from 'react-reveal/Zoom'
 
 const TechStack = () => {
     const data = [
@@ -80,22 +82,29 @@ const TechStack = () => {
         <div className='techstack-section mt-10' id='tech-stack'>
 
             <div class="flex flex-col items-center justify-center mb-4 text-2xl font-bold">
-                <h5 class="text-gray-900">Tech Stack</h5>
+                <Fade right>
+                    <h5 class="text-gray-900">Tech Stack</h5>
+                </Fade>
                 <span class="block h-2 bg-gray-400 flex-grow w-10 rounded-full"></span>
             </div>
 
-            <div class="tech-stack-container mx-auto py-12 px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                {data.slice(0, showMoreTechStack).map((item, index) => (
-                    <div key={index} className={index === 1 ? "tech-content-marked tech-content shadow-xl p-4 flex flex-col items-center justify-center" : "tech-content shadow-xl p-4 flex flex-col items-center justify-center"}>
-                        <span className='tech-number' style={{ backgroundColor: colors[index] }}>
-                            {index + 1}
-                        </span>
-                        <p class="text-xl font-bold">{item.name}</p>
-                    </div>
-                ))}
-            </div>
 
-            <span onClick={loadMore} className='load-more-tech-stack shadow-md' style={{ display: showMoreTechStack >= data.length ? "none" : "block" }}>Load More</span>
+
+            <div class="tech-stack-container mx-auto py-12 px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                <Fade right>
+                    {data.slice(0, showMoreTechStack).map((item, index) => (
+                        <div key={index} className={index === 1 ? "tech-content-marked tech-content shadow-xl p-4 flex flex-col items-center justify-center" : "tech-content shadow-xl p-4 flex flex-col items-center justify-center"}>
+                            <span className='tech-number' style={{ backgroundColor: colors[index] }}>
+                                {index + 1}
+                            </span>
+                            <p class="text-xl font-bold">{item.name}</p>
+                        </div>
+                    ))}
+                </Fade>
+            </div>
+            <Zoom>
+                <span onClick={loadMore} className='load-more-tech-stack shadow-md' style={{ display: showMoreTechStack >= data.length ? "none" : "block" }}>Load More</span>
+            </Zoom>
 
         </div>
     )

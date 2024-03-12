@@ -2,6 +2,7 @@ import React from 'react'
 import "./Contact.css"
 import ContactImage from "../Images/contact.jpg"
 import { GrSend } from "react-icons/gr";
+import Fade from 'react-reveal/Fade';
 
 
 function Contact() {
@@ -13,11 +14,15 @@ function Contact() {
             </div>
 
             <div className="container mx-auto py-12 px-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+                <Fade bottom>
                 <div className="flex justify-center items-center">
                     <div className="contact-form-image overflow-hidden">
                         <img src={ContactImage} alt="contact-form-img"/>
                     </div>
                 </div>
+                </Fade>
+                <Fade right>
+
                 <div class=" rounded-lg p-4 flex flex-col">
                     <form>
                         <div class="contact-form flex flex-col gap-2 mb-4">
@@ -51,6 +56,7 @@ function Contact() {
 
                     </form>
                 </div>
+                </Fade>
             </div>
         </div>
     )
