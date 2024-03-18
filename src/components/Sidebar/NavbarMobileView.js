@@ -12,12 +12,14 @@ import {
     FcPieChart
 } from "react-icons/fc";
 import { Link } from 'react-scroll';
+import Switch from "react-switch";
 
-function NavbarMobileView() {
+function NavbarMobileView({ theme, changeTheme }) {
     const [show, setShow] = React.useState(false)
     const handleClick = ()=>{
         setShow(!show)
     }
+    
     return (
         <div  className='mobile-view-navbar'>
             <div className='navbar-header'>
@@ -35,6 +37,8 @@ function NavbarMobileView() {
                     <li className='nav-item-mobile-view'><Link smooth={true} spy={true} offset={-50} to="education" className='nav-bar-item-link'><FcQuestions size={25} />Education</Link></li>
                     <li className='nav-item-mobile-view'><Link smooth={true} spy={true} offset={-50} to="testimonial" className='nav-bar-item-link'><FcSalesPerformance size={25} />Testimonial</Link></li>
                     <li className='nav-item-mobile-view'><Link smooth={true} spy={true} offset={-50} to="contact" className='nav-bar-item-link'><FcContacts size={25} /> Contact</Link></li>
+                    <li className='nav-item-mobile-view toggle'><Switch onChange={changeTheme} checked={theme==="dark"} /></li>
+
                 </ul>
 
             </div>) : null

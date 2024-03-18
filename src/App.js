@@ -24,7 +24,7 @@ const App = () => {
   return (
     <ThemeContext.Provider value={{ theme, changeTheme }}>
       <div id={theme}>
-        <NavbarMobileView />
+        <NavbarMobileView  changeTheme={changeTheme} theme={theme} />
         <Sidebar changeTheme={changeTheme} theme={theme} />
         <About />
         <TechStack />

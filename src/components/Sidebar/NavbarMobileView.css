@@ -20,7 +20,7 @@
 }
 
 .mobile-nav {
-  height: 500px;
+  height: 550px;
   width: 200px;
   background-color: rgb(253, 129, 107);
   display: flex;
@@ -48,6 +48,11 @@
   cursor: pointer;
   margin-bottom: 15px;
   margin-left: 10px;
+}
+.toggle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (min-width: 1000px) {

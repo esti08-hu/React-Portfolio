@@ -64,6 +64,9 @@
     .home-content{
       margin-left: 10px;
     }
+    .theme-change{
+      display: none;
+    }
   }
   
   .theme-change{
