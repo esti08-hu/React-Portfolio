@@ -59,8 +59,15 @@ p {
 
 .container.about-section {
   margin: 0 auto; /* Center the section horizontally */
-  max-width: 84%; /* Set a maximum width for larger screens */
-  margin-left: 9.5rem;
+  max-width: 80%; /* Set a maximum width for larger screens */
+  margin-left: 12rem;
+  margin-top: 30px;
+}
+
+#dark{
+  .about-section{
+    background-color: #202124;
+  }
 }
 
 .about-image-container {

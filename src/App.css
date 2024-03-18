@@ -14,3 +14,7 @@
   transition-duration: 0.8s;
 }
 
+#dark{
+  background-color: #303540;
+  color: white;
+}

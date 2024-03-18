@@ -114,7 +114,7 @@ const Project = () => {
     return (
         <div className='project-container mt-10' id='projects'>
              <div class="flex flex-col items-center justify-center mb-4 text-2xl font-bold">
-                        <h5 class="text-gray-900">Projects</h5>
+                        <h5>Projects</h5>
                         <span class="block h-2 bg-gray-400 flex-grow w-10 rounded-full"></span>
                     </div>
             <div class="container mx-auto py-12 px-4 grid md:grid-cols-1 lg:grid-cols-2 gap-4">

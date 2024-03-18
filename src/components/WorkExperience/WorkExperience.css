@@ -29,6 +29,11 @@
   color: black;
   font-weight: 700;
 }
+#dark{
+  .date-my-project{
+    color: white;
+  }
+}
 
 @media (max-width: 1000px) {
   .work-experience-container{

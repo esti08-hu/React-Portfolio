@@ -3,13 +3,13 @@ import "./Contact.css"
 import ContactImage from "../Images/contact.jpg"
 import { GrSend } from "react-icons/gr";
 import Fade from 'react-reveal/Fade';
-
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 function Contact() {
     return (
         <div className='contact-section' id='contact'>
             <div class="flex flex-col items-center justify-center mb-4 mt-10 text-2xl font-bold">
-                <h5 class="text-gray-900 mt-5">Contact Me</h5>
+                <h5 class="mt-5">Contact Me</h5>
                 <span class="block h-2 bg-gray-400 flex-grow w-12 rounded-full"></span>
             </div>
 
@@ -58,6 +58,7 @@ function Contact() {
                 </div>
                 </Fade>
             </div>
+        <ToastContainer autoClose={8000}/>
         </div>
     )
 }

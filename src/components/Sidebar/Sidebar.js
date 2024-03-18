@@ -5,11 +5,12 @@ import { FaAngleLeft, FaAngleRight } from "react-icons/fa6";
 import SidebarList from './SidebarList';
 
 
-const Sidebar = () => {
-    const [expandSidebar, setExpandSidebar] = useState(true)
+const Sidebar = ({theme, changeTheme}) => {
+    const [expandSidebar, setExpandSidebar] = useState(false)
     const handleExpandClick = () => {
         setExpandSidebar(!expandSidebar);
     }
+    
     return (
         <div className='sidebar-section'>
             <div className={expandSidebar ? "sidebar-expand sidebar" : 'sidebar'}>
@@ -22,9 +23,8 @@ const Sidebar = () => {
                 <SidebarList expandSidebar={expandSidebar}/>
             </div>
             <div>
-                <Home />
+                <Home changeTheme = {changeTheme} theme = {theme}/>
             </div>
-
         </div>
     )
 }

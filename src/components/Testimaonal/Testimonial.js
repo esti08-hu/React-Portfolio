@@ -76,7 +76,7 @@ function Testimonial() {
   return (
     <div className='testimonial-section mt-10' id='testimonial'>
       <div class="flex flex-col items-center justify-center mb-4 text-2xl font-bold">
-                <h5 class="text-gray-900">Testimonial</h5>
+                <h5>Testimonial</h5>
                 <span class="block h-2 bg-gray-400 flex-grow w-12 rounded-full"></span>
             </div>
       <div className='testimonial'>

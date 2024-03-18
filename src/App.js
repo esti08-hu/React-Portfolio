@@ -1,4 +1,4 @@
-import React from "react"
+import React, { createContext, useState } from "react"
 import Sidebar from "./components/Sidebar/Sidebar";
 import About from "./components/About/About";
 import TechStack from "./components/TechStack/TechStack";
@@ -11,26 +11,37 @@ import ScrollToTop from "react-scroll-to-top";
 import "./App.css"
 import NavbarMobileView from "./components/Sidebar/NavbarMobileView";
 
+export const ThemeContext = createContext(null)
 
 const App = () => {
+
+  const [theme, setTheme] = useState("light")
+
+  const changeTheme = () => {
+    setTheme((prev) => (prev === "light" ? "dark" : "light"));
+  }
+
   return (
-    <>
-      <NavbarMobileView/>
-      <Sidebar />
-      <About />
-      <TechStack />
-      <Project />
-      <WorkExperience />
-      <Education />
-      <Testimonial />
-      <Contact />
+    <ThemeContext.Provider value={{ theme, changeTheme }}>
+      <div id={theme}>
+        <NavbarMobileView />
+        <Sidebar changeTheme={changeTheme} theme={theme} />
+        <About />
+        <TechStack />
+        <Project />
+        <WorkExperience />
+        <Education />
+        <Testimonial />
+        <Contact />
+      </div>
+
       <ScrollToTop smooth={true}
-      color="white"
-      height="20"
-      width="20"
-        style={{display: "flex", alignItems: "center", justifyContent: "center" , backgroundColor: "black", borderRadius: "50%"}}
+        color="white"
+        height="20"
+        width="20"
+        style={{ display: "flex", alignItems: "center", justifyContent: "center", backgroundColor: "black", borderRadius: "50%" }}
       />
-    </>
+    </ThemeContext.Provider>
   );
 }
 

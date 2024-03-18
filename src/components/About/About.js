@@ -50,7 +50,7 @@ const About = () => {
         <div className="about-details">
           <Flip left>
             <div className="flex flex-col items-center justify-center mb-4 text-2xl font-bold">
-              <h5 className="text-gray-900">About Me</h5>
+              <h5>About Me</h5>
               <span className="block h-2 bg-gray-400 flex-grow w-10 rounded-full"></span>
             </div>
           </Flip>

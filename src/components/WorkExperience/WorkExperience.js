@@ -190,7 +190,7 @@ const WorkExperience = () => {
         <div className='work-experience-container mt-10' id='work-experience'>
 
             <div class="flex flex-col items-center justify-center mb-4 text-2xl font-bold">
-                <h5 class="text-gray-900">Work Experience</h5>
+                <h5>Work Experience</h5>
                 <span class="block h-2 bg-gray-400 flex-grow w-12 rounded-full"></span>
             </div>
 

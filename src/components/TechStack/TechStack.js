@@ -55,9 +55,9 @@ const TechStack = () => {
         "#F5B041",
         "#3498DB",
         "#F5B041",
-        '#CACFD2',
+        '#4d0099',
         "#CB4335",
-        "#F7DC6F",
+        "#006699",
         "#F1C40F",
         "#B3B6B7",
         "#73C6B6",
@@ -83,7 +83,7 @@ const TechStack = () => {
 
             <div class="flex flex-col items-center justify-center mb-4 text-2xl font-bold">
                 <Fade right>
-                    <h5 class="text-gray-900">Tech Stack</h5>
+                    <h5>Tech Stack</h5>
                 </Fade>
                 <span class="block h-2 bg-gray-400 flex-grow w-10 rounded-full"></span>
             </div>

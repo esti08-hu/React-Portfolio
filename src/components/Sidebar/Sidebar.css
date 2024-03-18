@@ -21,11 +21,11 @@
   cursor: pointer;
   
 }
-.icon-for-sidebar-expand-and-collapse p svg {
+.icon-for-sidebar-expand-and-collapse p {
   background-color: #19092c;
   color: white;
   border-radius: 5px;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 @media (max-width: 1000px) {

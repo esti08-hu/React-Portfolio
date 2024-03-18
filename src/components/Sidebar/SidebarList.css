@@ -12,10 +12,12 @@
 
 .nav-item{
   display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
   list-style-type: none;
   cursor: pointer;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .nav-items ul li svg{

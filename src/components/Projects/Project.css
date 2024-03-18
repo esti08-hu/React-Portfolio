@@ -38,7 +38,7 @@
   border-radius: 90px;
 }
 
-.tech-used-in-project p:hover {
+.tech-used-in-project:hover {
   background-color: rgb(245, 128, 107) !important;
   transition-duration: 0.5s;
 }
